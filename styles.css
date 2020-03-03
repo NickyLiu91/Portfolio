@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#name {
+  font-size: 50px;
+  /*border: solid 5px white*/
+  text-align: center;
+  margin: 10px;
+  margin-top: 0;
+  color: gold
+}
+
+img {
+  /*width: 15%;
+  height: 15%;*/
+  height: 36vh;
+  width: 15vw;
+}
+
+#header {
+  background-color: black;
+  display: flex;
+  justify-content: center
+}
+
+#controller, #teaching {
+  filter: invert(100%);
+  height: 18vh;
+  width: 8vw;
+  margin-left: 40px
+}
+
+h1 {
+  border: solid 5px gold;
+  text-align: center;
+  color: gold
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+#main-div1 {
+  /*background-color: blue;*/
+  width: 70%
+}
+
+#main-div2 {
+  /*background-color: blue;*/
+  width: 30%;
+  /*height: 600px;*/
+  display: flex;
+  flex-direction: column;
+  /*align-content: center;*/
+  /*align-items: flex-start;*/
+}
+
+#picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  height: 5vh;
+  width: 5vw;
+  filter: invert(100%);
+  margin-left: 50px
+}
+
+#lol {
+  filter: invert(0);
+}
+
+h2 {
+  display: flex;
+  color: gold
+}
+
+#links {
+  text-align: center
+}
+
+#video {
+  display: flex;
+  justify-content: space-around;
+}
+
+iframe {
+  height: 35vh;
+  width: 30vw;
+}
+
+li {
+  margin: 20px
+}
+/*#about, #name {
+  border-left: 0;
+  border-right: 0
+}*/

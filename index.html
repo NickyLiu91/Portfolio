@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="header">
+    <img id="controller" src="images/controller.png" />
+    <img id="teaching" src="images/teaching.svg" />
+  </div>
+  <h1 id="about">About</h1>
+  <div id="main">
+    <div id="main-div1">
+      <p>
+        Former psychology and philosophy graduate from New York University who
+        loves teaching and video games. I am a nerd who became interested in
+        programming through my interest in social psychology and my love of video
+        games. I attended the fullstack web development course at Flatiron School,
+        where I learned sql, Ruby, Ruby on Rails, Javascript, and React.js.
+        I am always trying to learn new technologies, and am a writer for two
+        Publishers on Medium, where I write articles detailing how to use the new
+        technologies and tools as I learn them. I have also been a private tutor
+        for many years, and am currently a part-time teaching assistant at Trilogy
+        Education for full-stack web development bootcamp courses. I enjoy making
+        video game related projects in my spare time. Feel free to contact me!
+      </p>
+    </div>
+    <div id="main-div2">
+      <p id="name">
+        Nicky Liu
+      </p>
+      <img id="picture"  src="images/profile.jpg" />
+    </div>
+  </div>
+  <div>
+    <div id="links">
+      <h1>Links</h1>
+      <p>E-mail: nickyliu91@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/nickyliu91" />https://www.linkedin.com/in/nickyliu91</a></p>
+      <p>GitHub: <a href="https://github.com/NickyLiu91"/>https://github.com/NickyLiu91</a></p>
+      <p>Medium: <a href="https://medium.com/@nickyliu91" />https://medium.com/@nickyliu91</a></p>
+      <p>Resume: <a href="Resume.docx" download>Resume Download</a></p>
+    </div>
+    <h1>Projects</h1>
+      <h2>League of Cards <img id="lol" class="icon" src="images/lol_logo.png" /></h2>
+        <a href="https://league-of-cards-app.herokuapp.com/">Play League of Cards</a>
+        <h3>Fanmade card game featuring characters from League of Legends where you get cards, create decks, and fight a computer.</h3>
+        <p>- Utilized Rails/PostgreSQL API backend to create a relational database between cards, decks, and accounts</p>
+        <p>- React frontend dynamically displays changes to background, text, cards, and field in response to user input</p>
+        <p>- Redux frontend to store user account information so different aspects can be easily accessed, displayed, and modified as needed by various components as the player interacts with them</p>
+        <p>- Functional AI that will make the optimal moves each turn by taking into consideration the current state of the AI and player field, the AI hand, and any potential combos</p>
+        <a href="https://github.com/NickyLiu91/League_of_Cards">GitHub</a>
+        </br>
+        <a href="https://www.youtube.com/watch?v=H-kjyRMXHjE">Youtube</a>
+      <h2>Granblue Fantasy Gacha Simulator <img class="icon" src="images/granblue_fantasy_icon.jpg" /></h2>
+        <a href="https://gbf-gacha.herokuapp.com/">Test Granblue Fantasy Gacha Simulator</a>
+        <h3>A simulator for rolling on the gacha machine for the popular browser/mobile game Granblue Fantasy.</h3>
+        <p>- Restructured backend API to use Node.js/MongoDB from Rails and PostgreSQL since database only consists of simple objects with no relations to each other</p>
+        <p>- React frontend to activate a roll and cycle through results when corresponding buttons are clicked</p>
+        <p>- Employed Redux to store currency and results from rolls in global state so they can be displayed, and updated by several several different components without having to pass props</p>
+        <a href="https://github.com/NickyLiu91/GBF-Gacha-Simulator">GitHub</a>
+        </br>
+        <a href="https://www.youtube.com/watch?v=SNKGeqO6UHw">Youtube</a>
+      <h2>Mobile Blackjack <img class="icon" src="images/playing_cards_icon.png" /></h2>
+        <h3>Blackjack vs AI for iOS.</h3>
+        <p>- ReactNative used since card games are simple, lightweight, and often played as a distraction on handheld devices </p>
+        <p>- Display cards on the field and in both players hands, as well as dynamically updates based on player and AI moves</p>
+        <p>- AI makes moves based on dealer rules and the player’s visible cards while preferring a safe approach</p>
+        <a href="https://github.com/NickyLiu91/Mobile-Black-Jack">GitHub</a>
+        </br>
+        <a href="https://www.youtube.com/watch?v=TiFxoiVKYO8">Youtube</a>
+      <h1>Demos</h1>
+      <p style="text-align: center">Click on the name of a project to view its demo!</p>
+      </br>
+      <div id="video">
+        <ul id="clicks">
+          <li id="loc">League of Cards</li>
+          <li id="gbf">Granblue Fantasy Gacha Simulator</li>
+          <li id="mbj">Mobile Blackjack</li>
+        </ul>
+        <iframe src="https://www.youtube.com/embed/H-kjyRMXHjE"></iframe>
+      </div>
+</body>
+</html>
