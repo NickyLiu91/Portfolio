@@ -98,10 +98,16 @@ iframe {
   width: 30vw;
 }
 
-li {
-  margin: 20px
+ol > li {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-/*#about, #name {
-  border-left: 0;
-  border-right: 0
-}*/
+
+p {
+  margin: 0
+}
+
+ol {
+  list-style-type: circle;
+}
