@@ -9,17 +9,4 @@ $(document).ready(() => {
       $("iframe").attr('src', "https://www.youtube.com/embed/TiFxoiVKYO8")
     }
   })
-
-  // $("#button2").click(function(){
-  //   $("p").hide()
-  // })
-  //
-  // $("#button3").click(function(){
-  //   $("p").show()
-  // })
-  //
-  // $("#button4").click(function(){
-  //   $("p").toggle()
-  // })
-
 })
