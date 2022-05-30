@@ -98,7 +98,7 @@ iframe {
   width: 30vw;
 }
 
-ul > li {
+.experience > li {
   margin: 10px;
   display: flex;
   justify-content: space-between;
