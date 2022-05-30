@@ -98,8 +98,8 @@ iframe {
   width: 30vw;
 }
 
-ol > li {
-  margin: 20px;
+ul > li {
+  margin: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -108,6 +108,7 @@ p {
   margin: 0
 }
 
-ol {
-  list-style-type: circle;
+ul:nth-child(2) {
+  background-color: red;
+  /*list-style-type: circle;*/
 }
